@@ -3,3 +3,5 @@ dentro da pasta onde esta o arquivo dockerfile abrir prompt e executar os comand
 docker build -t adrluis7/app-node:1.0 .
 
 docker run -d -p 8081:3000 adrluis7/app-node:1.0
+
+docker run -p 9090:6000 -d adrluis7/app-node:1.3
